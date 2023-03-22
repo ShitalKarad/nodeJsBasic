@@ -1,0 +1,4 @@
+//check if the array elements includees element is present or not
+const array = [2,4,6,8,9,10];
+let output = array.includes(10);
+console.log(output);
