@@ -1,3 +1,4 @@
+
 const filterItem =(arryValue,search)=>{
     arryValue.filter((item)=>{
 return item === search
@@ -27,8 +28,9 @@ class utils{
 }
 module.exports = new utils();
 
-function WageCalByRandom (min,max){
+ function WageCalByRandom (min,max){
     return Math.floor(
         Math.random() * (max - min + 1) + min
     );
     }
+    module.exports = { WageCalByRandom }
