@@ -15,12 +15,13 @@ function printDataByMap(array){
     console.log(result);
     return result;
 }
+module.exports = {printDataByMap}
 
 function printDataByFilter (){
     console.log("operation is done");
 }
 
-module.exports = {printDataByMap,printDataByFilter}
+
 class utils{
     printDataByFilter(){
         console.log("opertion");
